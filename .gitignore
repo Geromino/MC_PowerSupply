@@ -54,6 +54,6 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
-/Monitor_Power_Supply.X/debug/default
-/Monitor_Power_Supply.X/build
-/Monitor_Power_Supply.X/dist/default/production
+/MPLAB/Monitor_Power_Supply.X/build
+/MPLAB/Monitor_Power_Supply.X/debug
+/MPLAB/Monitor_Power_Supply.X/dist/default/production
