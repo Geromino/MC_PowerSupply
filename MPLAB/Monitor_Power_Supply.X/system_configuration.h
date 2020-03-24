@@ -34,6 +34,7 @@
 #include <xc.h> // include processor files - each processor file is guarded.  
 
 // TODO Insert appropriate #include <>
+#define TEST_TOGGLE_LCD  1
 
 // TODO Insert C++ class definitions if appropriate
 

@@ -22,7 +22,8 @@ void main(void)
     
     while(1)
     {
-       System_Test();
+        if (TEST_TOGGLE_LCD)
+                System_Test();
       
     }
     return;
