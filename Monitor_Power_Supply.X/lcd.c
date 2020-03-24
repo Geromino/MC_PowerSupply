@@ -23,6 +23,7 @@
 
 #include	<xc.h>
 #include	"lcd.h"
+#include "lcd_string.h"
 
 #define	LCD_RS RC4
 //#define	LCD_RW RA2
@@ -118,4 +119,18 @@ lcd_init()
 	//lcd_write(0xF);  // Display On, Cursor On, Cursor Blink
 	lcd_clear();	// Clear screen
 	lcd_write(0x6); // Set entry Mode
+}
+
+void lcd_start(void)
+{
+    lcd_init();
+    lcd_clear();
+}
+
+void lcd_put_float(float val ,int lcd_position)
+{
+    char lcd_float_ans[FLOAT_CASTING_STRING_BUFFER_SIZE];
+    lcd_goto(lcd_position);
+    lcd_puts(ftoa(val,lcd_float_ans,LEVEL_ACCURECTY_FLOAT_TO_STRING));
+    
 }
