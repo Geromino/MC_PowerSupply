@@ -1,5 +1,6 @@
 # Prerequisites
 *.d
+*.p1
 
 # Object files
 *.o
@@ -34,7 +35,7 @@
 *.app
 *.i*86
 *.x86_64
-*.hex
+
 
 # Debug files
 *.dSYM/
@@ -50,3 +51,5 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+/Monitor_Power_Supply.X/debug
+/Monitor_Power_Supply.X/build
