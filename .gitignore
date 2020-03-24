@@ -53,3 +53,4 @@ Mkfile.old
 dkms.conf
 /Monitor_Power_Supply.X/debug/default
 /Monitor_Power_Supply.X/build
+/Monitor_Power_Supply.X/dist/default/production

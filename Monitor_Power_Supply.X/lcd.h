@@ -28,3 +28,7 @@ extern void lcd_putch(char);
 /*	Set the cursor position */
 
 #define	lcd_cursor(x)	lcd_write(((x)&0x7F)|0x80)
+
+void lcd_put_float(float val ,int lcd_position);
+void lcd_start(void);
+
