@@ -51,5 +51,5 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
-/Monitor_Power_Supply.X/debug
+/Monitor_Power_Supply.X/debug/default
 /Monitor_Power_Supply.X/build
