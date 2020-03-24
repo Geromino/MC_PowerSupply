@@ -1,6 +1,9 @@
 # Prerequisites
 *.d
 *.p1
+*.bak
+*.pdsbak
+*.workspace
 
 # Object files
 *.o
